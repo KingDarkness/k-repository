@@ -1,0 +1,13 @@
+<?php
+
+namespace {{namespace}};
+use {{parent_namespace}}\{{parent_name}};
+
+class {{data_mapper_name}} extends {{parent_name}} implements {{interface_name}}
+{
+    public function __construct({{model_name}} ${{model_lower_name}})
+    {
+        $this->model = ${{model_lower_name}};
+    }
+
+}

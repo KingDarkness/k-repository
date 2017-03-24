@@ -1,0 +1,12 @@
+<?php
+
+namespace {{namespace}};
+
+class {{data_mapper_name}} implements {{interface_name}}
+{
+    public function __construct({{model_name}} ${{model_lower_name}})
+    {
+        $this->model = ${{model_lower_name}};
+    }
+
+}

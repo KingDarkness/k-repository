@@ -1,0 +1,16 @@
+<?php
+
+namespace {{namespace}};
+
+use {{parent_model_namespace}}\{{parent_model_name}};
+
+class {{model_name}} extends {{parent_model_name}}
+{
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    public $fillable = [];
+}
