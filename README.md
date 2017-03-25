@@ -1,7 +1,7 @@
 # k-repository
 generator repository laravel 5.*
 
-install
+Install
 
 ``` bash
 $ composer require kingdarkness/k-repository
