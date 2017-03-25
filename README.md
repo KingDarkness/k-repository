@@ -55,7 +55,10 @@ To create a repository with migration:
 ``` bash
 $ php artisan make:repository User --migration=true
 ```
-The repository will generator in `app/King/User`
+The repository will generator in `app/King/Users`
+
 The migration in `database/migrations`
+
 The ServiceProvider in `app/Providers`
+
 The repository will automatic register ServiceProvider in `configs/kproviders.php`
