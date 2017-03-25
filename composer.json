@@ -4,6 +4,7 @@
     "type": "composer-plugin",
     "keywords": ["generator laravel", "repository laravel", "generator repository laravel"],
     "license": "",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Nguyễn Trần Hoàn",

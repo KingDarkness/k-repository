@@ -1,6 +1,10 @@
 # k-repository
 generator repository laravel 5.*
 
+install
+``` bash
+$ composer require kingdarkness/k-repository
+``
 Edit your `AppServiceProvider` to add the following to the `register` method:
 
 ``` php
