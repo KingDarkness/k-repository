@@ -3,7 +3,7 @@
     "description": "generator repository laravel 5.*",
     "type": "composer-plugin",
     "keywords": ["generator laravel", "repository laravel", "generator repository laravel"],
-    "license": "",
+    "license": "MIT",
     "minimum-stability": "dev",
     "authors": [
         {
