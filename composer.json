@@ -1,7 +1,7 @@
 {
     "name": "kingdarkness/k-repository",
     "description": "generator repository laravel 5.*",
-    "type": "composer-plugin",
+    "type": "library",
     "keywords": ["generator laravel", "repository laravel", "generator repository laravel"],
     "license": "MIT",
     "authors": [
