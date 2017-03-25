@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "KRepository\\KRepositoryServiceProvider": "src"
+            "KRepository\\KRepositoryServiceProvider\\": "src"
         }
     },
     "minimum-stability": "dev",
