@@ -5,10 +5,10 @@ namespace KRepository\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
+use Illuminate\Container\Container;
 
 class KGeneratorRepositoryCommand extends Command
 {
-    use \Illuminate\Console\AppNamespaceDetectorTrait;
     /**
      * The name and signature of the console command.
      *
@@ -320,6 +320,16 @@ class KGeneratorRepositoryCommand extends Command
         if (!$this->files->isDirectory(dirname($path))) {
             $this->files->makeDirectory(dirname($path), 0755, true, true);
         }
+    }
+
+    /**
+     * Get the application namespace.
+     *
+     * @return string
+     */
+    protected function getAppNamespace()
+    {
+        return Container::getInstance()->getNamespace();
     }
 
 }
