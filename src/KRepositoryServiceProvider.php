@@ -37,6 +37,6 @@ class KRepositoryServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/config/krepository.php' => config_path('krepository.php'),
             __DIR__ . '/config/kproviders.php' => config_path('kproviders.php')
-        ]);
+        ], 'config');
     }
 }
